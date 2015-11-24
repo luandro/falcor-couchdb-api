@@ -1,0 +1,25 @@
+{
+  "name": "falcor-api",
+  "version": "0.1.0",
+  "description": "Falcor with CouchDB api example.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./babel-server",
+    "test": "test",
+    "dev": "nodemon ./babel-server"
+  },
+  "author": "Luandro",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "cradle": "^0.6.9",
+    "express": "^4.13.3",
+    "falcor": "^0.1.14",
+    "falcor-express": "^0.1.2",
+    "falcor-router": "^0.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
